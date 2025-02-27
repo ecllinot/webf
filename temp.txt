@@ -1,0 +1,4 @@
+src\hooks\useDocumentPreview.ts:  const handleDownload = async (type: string, params: any) => {
+src\hooks\useDocumentPreview.ts:      console.log('Download:', type, params);
+src\hooks\useDocumentPreview.ts:      console.error('Download error:', error);
+src\hooks\useDocumentPreview.ts:    handleDownload

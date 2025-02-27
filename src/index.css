@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --abb-red: #FF000D;
+  --abb-red-dark: #CC000A;
+}
+
+input, select, textarea {
+  @apply border-gray-300 focus:border-[#FF000D] focus:ring-[#FF000D];
+}
